@@ -268,7 +268,10 @@ nav::after{
 /* ── SECTIONS ── */
 section{padding:80px 6% 65px;max-width:1200px;margin:0 auto;}
 section:first-of-type{padding-top:110px;}
-
+.bz-intro{
+  max-width:700px;
+  margin:0 auto 26px auto;
+}
 .section-tag{
   font-family:var(--mono);font-size:11px;
   color:var(--accent2);letter-spacing:0.22em;
@@ -1189,12 +1192,15 @@ Symmetry lies at the heart of physics, governing conservation laws, electronic s
 <div class="divider"></div>
 
 <!-- ═══ BRAVAIS / BRILLOUIN ZONE EXPLORER ═══ -->
-<section id="bravais" style="max-width:unset;padding-left:4%;padding-right:4%;">
-  <div class="section-tag">07 · Reciprocal Space</div>
-  <h2 class="section-title">Brillouin Zone Explorer</h2>
-  <p style="font-size:15px;color:var(--text2);max-width:780px;line-height:1.95;margin-bottom:24px;font-weight:300">
-The 14 Bravais lattices, first classified by Auguste Bravais, reveal the beautiful order behind all crystalline solids, showing how atoms repeat in space to create structure and symmetry. Step into reciprocal space, where Brillouin zones bring this periodicity to life, highlighting high-symmetry k-points and paths that shape electronic band structures and material behavior. Explore all 14 Bravais lattices with their corresponding Brillouin zones and band-structure paths. <strong style="color:var(--text);font-family:var(--mono);font-size:12px">drag · zoom · pan</strong>.
-</p>
+<section id="bravais">
+  <div class="bz-intro">
+    <div class="section-tag">07 · Reciprocal Space</div>
+    <h2 class="section-title">Brillouin Zone Explorer</h2>
+    <p style="font-size:15px;color:var(--text2);line-height:1.95;margin-bottom:26px;font-weight:300">
+      The 14 Bravais lattices, first classified by Auguste Bravais, reveal the beautiful order behind all crystalline solids, showing how atoms repeat in space to create structure and symmetry. Step into reciprocal space, where Brillouin zones bring this periodicity to life, highlighting high-symmetry k-points and paths that shape electronic band structures and material behavior. Explore all 14 Bravais lattices with their corresponding Brillouin zones and band-structure paths. drag · zoom · pan.
+    </p>
+  </div>
+
 <div id="bz-app">
     <div class="bz-header">
       <div class="bz-logo">BZ <span>Explorer</span></div>
